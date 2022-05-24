@@ -1,0 +1,12 @@
+.page {
+    background-color: #2A2C2F;
+    min-width: 320px;
+}
+
+.page__header {
+    margin: 0 auto;
+}
+
+.page__footer {
+    margin: 0 auto;
+}

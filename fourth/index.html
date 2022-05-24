@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/png">
+    <title>Главная</title>
+    <link rel="stylesheet" href="./pages/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="./mess.js"></script>
+</head>
+
+<body>
+    <script>
+        function Print(){
+            var text=document.getElementById("text").value;
+            if(text.length<6){
+                Swal.fire(
+                'Ошибка!',
+                'Введите больше 6 символов',
+                'error'
+                )
+                return false;
+            }
+            else{
+                Swal.fire(
+                'Поздравляем!',
+                'Данные введены верно',
+                'success'
+                )
+                return false;
+            }
+            return false;
+        }
+    </script>
+    <div class="page">
+        <header class="header page__header">
+            <img src="./images/logo.png" class="header__logo" alt="Логотип Россия">
+        </header>
+
+        <main class="wrapper">
+            <section class="content content__section">
+                <form id="processFrom" class="form" method="post" onsubmit="return Print()" enctype="multipart/form-data">
+                    <input id="text" class="form__input" type="text" name="text" placeholder="Введите текст">
+                    <button class="form__submit" type="submit">Отправить</button>
+                </form>
+            </section>
+        </main>
+
+        <footer class="footer page__footer">
+            <p class="footer__copyright">© 2022. Имя Фамилия</p>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+.page {
+    background-color: #D3D3D3;
+    min-width: 320px;
+}
+
+.page__header {
+    margin: 0 auto;
+}
+
+.page__footer {
+    margin: 0 auto;
+}

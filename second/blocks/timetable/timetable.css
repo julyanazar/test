@@ -1,0 +1,13 @@
+td {
+    width: 73px;
+}
+
+table {
+    margin: 0;
+}
+
+#app {
+    padding: 10px;
+    margin: 0 auto;
+    width: 600px;
+}

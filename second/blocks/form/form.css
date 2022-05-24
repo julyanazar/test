@@ -1,0 +1,39 @@
+.form {
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #fff;
+    width: 203px;
+}
+
+.form__input {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 200px;
+    padding: 5px 0 5px 5px;
+    background-color: #fff;
+    color: #232527;
+    border: none;
+    border-bottom: 2px solid #cccccc; 
+    outline: none;
+}
+
+.form__input::placeholder {
+    color: #cccccc;
+    font-weight: 500;
+}
+
+.form__submit {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    height: 30px;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    background-color: #fff;
+    color: #232527;
+    border: 1px solid #232527;
+    border-radius: 10px;
+    cursor: pointer;
+}

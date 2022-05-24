@@ -1,0 +1,10 @@
+.content {
+    background-color: #2A2C2F;
+    width: 70%;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.content__section {
+    margin: 0 auto;
+}

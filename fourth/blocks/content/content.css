@@ -1,0 +1,13 @@
+.content {
+    background-color: #D3D3D3;
+    width: 70%;
+    padding-left: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__section {
+    margin: 0 auto;
+}

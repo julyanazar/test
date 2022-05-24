@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/png">
+    <title>Главная</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body>
+    <div class="page">
+        <header class="header page__header">
+            <img src="./images/logo.png" class="header__logo" alt="Логотип Россия">
+            <nav>
+                <ul class="header__menu">
+                    <li class="header__menu-links">
+                        <a href="./list-cards.html" target="_blank" class="header__link">Карточки</a>
+                    </li>
+                    <li class="header__menu-links">
+                        <a href="./list-table.html" target="_blank" class="header__link">Таблица</a>
+                    </li>
+                    <li class="header__menu-links">
+                        <a href="#" target="_blank" class="header__link">Пункт меню</a>
+                    </li>
+                    <li class="header__menu-links">
+                        <a href="#" target="_blank" class="header__link">Пункт меню</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="wrapper">
+            <aside class="sidebar">
+                <section class="login">
+                    <h1 class="login__title">Вход</h1>
+                    <form class="login__form">
+                        <input class="login__input" name="login" type="tel" pattern="^\+7\d{3}\d{7}$" value="+7" maxlength="12" placeholder="Логин" />
+                        <input class="login__input" name="password" type="text" placeholder="Пароль" />
+                        <button class="login__submit">Войти</button>
+                    </form>
+                </section>
+            </aside>
+            <section class="content">Content</section>
+        </main>
+
+        <footer class="footer page__footer">
+            <p class="footer__copyright">© 2022. Имя Фамилия</p>
+        </footer>
+    </div>
+</body>
+
+</html>
